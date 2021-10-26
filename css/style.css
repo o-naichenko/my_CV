@@ -25,21 +25,29 @@ body {
 .my-photo {
   width: 370px;
 }
-/*.main-container {
-  display: flex;
-  flex-direction: column;
-}*/
-.contacts-container {
+.main-container {
+  padding-top: 40px;
+  padding-left: 40px;
+}
+/* .contacts-container {
   margin-top: 60px;
   margin-left: 40px;
   margin-right: 40px;
+} */
+.contacts-list {
+  list-style-type: none;
 }
 .contacts-link {
-  margin-left: 10px;
+  /* margin-left: 10px; */
   font-size: 14px;
   font-weight: 400;
   line-height: 24px;
   color: #7a808a;
+  text-decoration: none;
+  transition: 0.15s linear;
+}
+.contacts-link:hover {
+  color: #f5f7fa;
 }
 .contacts-link-type {
   color: #fff;
@@ -47,17 +55,6 @@ body {
   font-weight: 700;
   line-height: 24px;
 }
-.tech-skills-container {
-  margin-top: 55px;
-  margin-left: 40px;
-  margin-right: 40px;
-}
-.soft-skills-container {
-  margin-top: 10px;
-  padding-top: 10px;
-  padding-left: 40px;
-}
-/* hello mentor :) */
 .aside-h3 {
   color: #ffffff;
   font-family: Montserrat;
@@ -180,5 +177,8 @@ ul {
   font-size: 14px;
   font-weight: 700;
   margin-bottom: 15px;
+}
+.text-container {
+  margin-bottom: 20px;
 }
 /* THANK U SO MUCH :) */
