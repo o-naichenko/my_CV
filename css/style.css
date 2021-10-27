@@ -104,10 +104,18 @@ h1 {
   font-size: 22px;
   font-weight: 700;
 }
+.faculty-title {
+  color: #000000;
+  font-size: 14px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
 ol {
   list-style-position: inside;
 }
 .projects-link {
+  text-decoration: none;
+  margin-top: 10px;
   color: #595959;
   font-size: 14px;
   font-weight: 400;
@@ -123,11 +131,14 @@ ol {
   font-weight: 400;
 }
 .projects-item {
+  display: flex;
   font-size: 14px;
   font-weight: 700;
+  justify-content: space-between;
 }
 .projects-container {
   margin-bottom: 50px;
+  padding-right: 100px;
 }
 .profession-title {
   color: #000;
@@ -138,11 +149,6 @@ ol {
 }
 .profession-orange {
   color: #ff6b08;
-}
-.time-period {
-  color: #a8a8a8;
-  font-size: 12px;
-  font-weight: 400;
 }
 .profession-divider {
   color: #000;
@@ -162,8 +168,13 @@ ul {
   font-size: 14px;
   font-weight: 400;
 }
-.work-experience-container {
-  margin-bottom: 50px;
+.text-container {
+  margin-bottom: 20px;
+}
+.time-period {
+  color: #a8a8a8;
+  font-size: 12px;
+  font-weight: 400;
 }
 .univercity-title {
   color: #ff6b08;
@@ -172,13 +183,7 @@ ul {
   margin-top: 20px;
   margin-bottom: 15px;
 }
-.faculty-title {
-  color: #000000;
-  font-size: 14px;
-  font-weight: 700;
-  margin-bottom: 15px;
-}
-.text-container {
-  margin-bottom: 20px;
+.work-experience-container {
+  margin-bottom: 50px;
 }
 /* THANK U SO MUCH :) */
